@@ -27,7 +27,7 @@ LANet (w/o adaptive loss)
 python main_lanet.py --model res50 --visname ddr_res50_lanet
 ```
 
-DR grading (5-grade classification)
+LANet (w/ adaptive loss)
 ```
 python main_lanet.py --model res50 --adaloss True --visname ddr_res50_lanet_adl
 ```
