@@ -33,10 +33,15 @@ python main_lanet.py --model res50 --adaloss True --visname ddr_res50_lanet_adl
 ```
 
 ## Test
+baseline model
+```
 python main_base.py --dataset ddr --model res50 --visname tests --n_classes 5 --test True
-python main_lanet.py --dataset ddr --modelres50 --visname tests --adaloss True --test True 
+```
 
-
+LANet (w/ adaptive loss)
+```
+python main_lanet.py --dataset ddr --model res50 --visname tests --adaloss True --test True 
+```
 
 
 ## Reference 
